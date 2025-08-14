@@ -1,0 +1,28 @@
+div{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative;
+            animation: myfirstanimation;
+            -webkit-animation: myfirstanimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            background-size: cover;
+            background-position: center;
+
+        }
+    @keyframes myfirstanimation
+    {
+        0%{background-image: url('/images/cat-leaning.jpg'); left: 0px; top: 0px;}
+        25%{background-image: url('/images/fox.jpg');left: 300px; top: 0px;}
+        50%{background-image: url('/images/landscape.jpg');left: 300px; top: 300px;}
+        75%{background-image: url('/images/landscape.jpg'); left: 0px; top: 300px;}
+        100%{background-image: url('/images/scooty.jpg');left: 0px; top: 0px;}
+
+
+    }
+
+    
+    

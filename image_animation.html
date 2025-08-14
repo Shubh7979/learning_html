@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swing{
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            
+        }
+        .swing{
+            animation: swing 3s ease-in-out infinite alternate;
+            transform-origin: top;
+            position: relative;
+        }
+        .swing img{
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px;
+        }
+
+        @keyframes swing {
+            from {transform: rotate(10deg); }
+            30%,50%{transform: rotate(0);}
+            70%, to{transform: rotate(-10deg);} 
+
+        }
+     
+    
+    </style>
+</head>
+<body>
+    <div class="swing">
+        <img src="/images/fox.jpg" alt="fox.jpg" height="150px" width="150px" >
+    </div>
+    
+</body>
+</html>

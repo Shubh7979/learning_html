@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+
+    body{
+        background-color: limegreen;
+        font-size: 30px;
+    }    
+    @media (min-width: 320px) and (max-width:700px){
+            p{
+                display: none;
+
+            }
+            
+            body{
+                background-color: orange;
+            }
+            h1,h2{
+                color: white;
+            }
+            .img{
+                display: none;
+            }
+    
+
+    }
+    @media (min-width: 1024px) and (max-width: 1224px){
+        body{
+            background-color: lightblue;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1,h3{
+            color: black;
+        }
+    }
+
+    @media (min-width: 850px) and (max-width: 1023px){
+        body{
+            background-color: palevioletred;
+
+        }
+        p{
+            font-size: 30px;
+        }
+        h1,h2{
+            color: blue;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <h1>CSS media query</h1>
+    <h2>smartphone view - <span class="details">from 320px and up</span>(min-width:320px)</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, optio soluta! Corrupti at unde suscipit deserunt officiis placeat tempore illo fugiat, quia doloremque possimus maiores vero error reiciendis necessitatibus numquam?</p>
+
+    <img src="images/landscape.jpg" alt="landscape" width="300px" height="300px">
+</body>
+</html>
